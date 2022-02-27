@@ -1,11 +1,12 @@
 #include <stdio.h>
 main()
 {
-int y, x;
+int y, x, c;
 printf("Enter number x\n");
 scanf("%d",&x);
 y = 5 * x + 20;
 printf("%d\n",y);
-
+c = y * 2;
+printf("%d\n",c);
 return 0;
 }
